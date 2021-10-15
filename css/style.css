@@ -85,23 +85,25 @@ body{
     overflow: hidden;
     word-wrap: break-word;
 }
-.todoList li .icon{
+.todolist li span i{
     position: absolute;
     right: -45px;
-    top: 50px;
-    transform: translateY(-50px);
+    top: 50%;
+    transform: translateY(-50%);
     background: #e74c3c;
     width: 45px;
     text-align: center;
-    color: white;
+    color: #fff;
     padding: 10px 15px;
     border-radius: 0 3px 3px 0;
     cursor: pointer;
     transition: all 0.2s ease;
 }
-.todoList li:hover .icon{
+ 
+.todolist li:hover i{
     right: 0px;
 }
+
 
 .wrapper .footer{
     display: flex;
